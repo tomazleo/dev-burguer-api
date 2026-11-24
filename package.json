@@ -1,0 +1,24 @@
+{
+  "name": "dev-burguer-api",
+  "version": "1.0.0",
+  "main": "src/serve.js",
+  "scripts": {
+    "dev": "node --watch src/serve.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.20.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8",
+    "uuid": "^14.0.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.14",
+    "sequelize-cli": "^6.6.5"
+  }
+}
